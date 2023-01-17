@@ -1,0 +1,99 @@
+import React , {useEffect} from 'react'
+
+import { homeContainer,newcards } from "./Homedash.module.css";
+import { useNavigate, Navigate,BrowserRouter, Route, Routes } from 'react-router-dom';
+import {
+  Table,
+  Button,
+  Container,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  FormGroup,
+  ModalFooter,
+} from "reactstrap";
+
+//import jwt from "jsonwebtoken"
+
+// ******************************* ACTIVA OPERADORES ******///
+
+
+
+
+
+function Homedash() {
+ 
+  
+ 
+ 
+  let navigate = useNavigate(); 
+    
+  const routeChange = () =>{ 
+      
+    let path = '\sdop'; 
+    navigate(path);
+  
+  
+  
+  }
+
+
+  return (
+   
+
+
+<div >
+    <div>
+    <h1 className="text-center" style={{color: "white",}}>Buddy Care DASHBOARD</h1>
+    </div  >
+    
+    
+    {/*<div className="container  " >*/}
+    <div className = {newcards}>
+    <div className="row justify-content-center">
+
+        <div className="card me-5 " style={{ width: '15rem', height:'25rem' }}>
+  
+         <div className="card-body" >
+           <img class="card-img-top" src="http://www.fpsoft.com.ar/pfw12/dashimages/operadores.jpg"/>
+           <h5 className="card-title">Operadores</h5>
+           <p className="card-text">Acceso de OPERADORES  Y SUPERVISORES  del  sistema, donde podrá realizar A-B-M y reportes de control                      </p>
+           <br></br>
+           <button className="btn btn-secondary" onClick={routeChange}>INGRESAR</button>
+          </div>
+        </div>
+    
+        <div className="card me-5" style={{ width: '15rem', height:'25rem' }}>
+  
+        <div className="card-body">
+            <img class="card-img-top" src="http://www.fpsoft.com.ar/pfw12/dashimages/fotologinveterinaria.jpeg"/>
+    <h5 className="card-title">Veterinarias</h5>
+    <p className="card-text">Acceso de PET SHOPs afiliados, donde  podrá realizar A-B-M de su stock de productos y servicios, y además reportes de control.</p>
+    <button className="btn btn-secondary">INGRESAR</button>
+  </div>
+</div>
+<div className="card me-3" style={{ width: '15rem', height:'25rem' }}>
+  
+  <div className="card-body">
+    <img class="card-img-top" src="http://www.fpsoft.com.ar/pfw12/dashimages/veterinarioyperro.jpeg"/>
+    <h5 className="card-title">Profesionales</h5>
+    <p className="card-text">Acceso de PROFESIONAL VETERINARIOS afiliados donde podrá gerenciar historias clínicas y el SISTEMA DE ATENCION DE URGENCIAS   .</p>
+    <br></br>
+    <button className="btn btn-secondary">INGRESAR</button>
+  </div>
+</div>
+</div>    
+
+</div>
+
+
+
+
+
+</div>
+
+
+  )
+}
+
+export default Homedash

@@ -1,0 +1,89 @@
+ <form >
+              
+              <div id="emailHelp" class="form-text">
+                    Cuando completes este formulario, recuerda ingresar la 
+                    foto de tu mascota desde la opción FOTO en su ficha 
+                  </div>
+                <br></br>
+
+              <div className="mb-3">
+                        <label for="validationCustom01"  className="form-label">Nombre</label>
+                        <input type="text" className="form-control form-control-sm" id="validationCustom01" value={nombre} onChange={(e)=>setNombre(e.target.value) } required />
+                        <div id="emailHelp" class="form-text">(*)Como se llama tu mascota ??</div>
+              </div>
+              
+              <div className="mb-3">
+                        <label for="validationCustom01"  className="form-label">Especie</label>
+                        <input type="text" className="form-control form-control-sm" id="validationCustom01" value={especie} onChange={(e)=>setEspecie(e.target.value) } required />
+                        <div id="emailHelp" class="form-text">(*) A que especie pertenece (Ej. gato, perro, reptil,ave,etc.) ?? </div>
+              </div>
+              
+              <div className="mb-3">
+                        <label for="validationCustom01"  className="form-label">Raza</label>
+                        <input type="text" className="form-control form-control-sm" id="validationCustom01" value={raza} onChange={(e)=>setRaza(e.target.value) } required />
+                        <div id="emailHelp" class="form-text">(*) A que raza pertenece (Ej.Siamés, Labrador, Tortuga, Canario, etc.) ?? </div>
+              </div>
+              
+              
+              <div className="mb-3">
+                        <label for="validationCustom01"  className="form-label">Edad</label>
+                        <input type="email" className="form-control form-control-sm" id="validationCustom01" value={edad} onChange={(e)=>setEdad(e.target.value) } required />
+                        <div id="emailHelp" class="form-text">Edad en años de tu mascota</div>
+              </div>
+              
+               <div className="mb-3">
+                        <label for="validationCustom01"  className="form-label">Peso</label>
+                        <input type="email" className="form-control form-control-sm" id="validationCustom01" value={peso} onChange={(e)=>setPeso(e.target.value) } required />
+                        <div id="emailHelp" class="form-text">Peso en Kg. de tu mascota</div>
+              </div>
+              
+              <div className="mb-3">
+                        <label  className="form-label">Estado</label>
+                        <select className="form-control" onChange={(e)=>setEstado(e.target.value)}>
+                        <option value="VIVA" >VIVA</option>
+                        <option value="EXTRAVIADA">EXTRAVIADA</option>   
+                        <option value="MUERTA">MUERTA</option>   
+                         </select>
+                     <div id="emailHelp" class="form-text">En que estado se encuentra tu mascota ??</div>
+     
+              </div>
+
+               <div className="mb-3">
+                        <label for="validationCustom01"  className="form-label">Chip:</label>
+                        <input type="text" className="form-control form-control-sm" id="validationCustom01" value={chip} onChange={(e)=>setChip(e.target.value) } />
+                        <div id="emailHelp" class="form-text">Si tu mascota tiene CHIP, coloca su ID </div>
+              </div>
+              <div className="mb-3">
+                  <label for="validationCustom01" className="form-label">
+                    Descripcion:
+                  </label>
+                  <textarea
+                    className="form-control"
+                    type="textarea"
+                    class="form-control form-control-sm"
+                    id="validationCustom01"
+                    style={{ height: "200px", width: "300px", resize: "both" }}
+                    value={nota}
+                    onChange={(e) => setNota(e.target.value)}
+                   
+                  />
+                  <div id="emailHelp" class="form-text">
+                    Describe a tu mascota 
+                  </div>
+                </div>
+
+
+              <div className="mb-3">
+              
+              {validacionModificar ? (
+              <button className='btn btn-warning btn-sm' type="submit" onClick={(e)=>modificarRegistro(e)}>Modificar</button>
+              ):(
+              <button className='btn btn-success btn-sm' type="submit" onClick={(e)=>agregarRegistro(e)}>Agregar</button> 
+              )
+              }
+              </div>
+              <div className="mb-3">
+              <button className='btn btn-info btn-sm' onClick={(e)=>toggle(e)}>Cancela</button>
+              </div>
+
+              </form>

@@ -1,0 +1,30 @@
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import CRUDoperadores from './pages/CRUDoperadores.jsx';
+import CRUDrubros from './pages/CRUDrubros.jsx';
+import CRUDveterinarias from './pages/CRUDveterinarias.jsx';
+import CRUDprofesionales from './pages/CRUDprofesionales.jsx';
+import REPtienda from './pages/REPtienda.jsx';
+import REPgenerales from './pages/REPgenerales.jsx';
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Sidebar>
+        <Routes>
+          <Route path="/" element={<CRUDoperadores />} />
+          <Route path="/crudoperadores" element={<CRUDoperadores />} />
+          <Route path="/crudrubros" element={<CRUDrubros />} />
+          <Route path="/crudveterinarias" element={<CRUDveterinarias />} />
+          <Route path="/crudprofesionales" element={<CRUDprofesionales />} />
+          <Route path="/reptienda" element={<REPtienda />} />
+          <Route path="/repgenerales" element={<REPgenerales />} />
+        </Routes>
+      </Sidebar>
+    </BrowserRouter>
+  );
+};
+
+export default App;

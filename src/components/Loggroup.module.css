@@ -1,0 +1,12 @@
+.fontBlanco{
+    font-size: 18px;
+    color:white;
+  }
+
+  .linea{
+    display: flex;
+    flex-direction: row;
+    
+    
+     
+ }

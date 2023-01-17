@@ -1,0 +1,95 @@
+  "bootstrap": "^5.2.3",
+
+
+  https://www.youtube.com/watch?v=7_qWMnjvtoU
+
+
+
+  modal 
+
+  {/* <Modal
+                    show={showModal}
+                     onHide={handleClose}
+                     backdrop="static"
+                      keyboard={false}
+                      >
+                      <Modal.Header closeButton>
+                       <Modal.Title>Modal title</Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body>
+                        I will not close if you click outside me.
+                        Don't even try to press
+                        escape key.
+                     </Modal.Body>
+                     <Modal.Footer>
+                     <Button variant="primary" onClick={handleClose}>
+                      Close
+                     </Button>
+            
+                     </Modal.Footer>
+            </Modal>*/}
+
+
+
+MODAL EN COMPONENTE FUNCIONAL
+https://www.geeksforgeeks.org/reactjs-reactstrap-modal-component/
+
+
+********************* MUI BORRAR MODIFICAR **************************
+
+ {
+        name: "Borrar",
+        options: {
+          filter: true,
+          sort: false,
+          empty: true,
+          customBodyRender: (value, tableMeta, updateValue) => {
+            return (
+              <button onClick={() => {
+                const { data } = this.state;
+                data.shift();
+                this.setState({ data });
+              }}>
+                Borrar
+              </button>
+            );
+          }
+        }
+      },
+
+      {
+        name: "Modificar",
+        options: {
+          filter: true,
+          sort: false,
+          empty: true,
+          customBodyRender: (value, tableMeta, updateValue) => {
+            console.log(tableMeta)
+            return (
+              <button onClick={() => window.alert(`Clicked "Edit" for row ${tableMeta.rowIndex}`)}>
+                Modificar
+              </button>
+            );
+          }
+        }
+      },
+  **********************************************************************************
+
+  ***************** BUSCAR EL ELEMENTO ID DEL ROW*************
+   <button onClick={()=> window.alert(`Clicked "BORRAR" para contenido ${tableMeta.tableData[tableMeta.rowIndex][2]}`)}>
+                Borrar
+              </button>
+
+
+
+ ***************** documentacion mui datatable ******
+ https://openbase.com/js/mui-data-table/documentation
+
+ **************** TIPOGRAFIA ************************
+ https://mui.com/material-ui/customization/typography/    
+
+ ******** cloudinary ******************
+ https://dev.to/franklin030601/crear-una-aplicacion-para-subir-images-react-y-cloudinary--1h5f
+
+ upload preset zgeurwy6
+          

@@ -1,0 +1,158 @@
+[
+	{
+		"id": 1,
+		"descripcion": "MOISES                                                           ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 2,
+		"descripcion": "COLCHONETAS                                                      ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 3,
+		"descripcion": "INDUMENTARIA DE MODA                                             ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 4,
+		"descripcion": "ESPECIAL GLAMOUR                                                 ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 5,
+		"descripcion": "BOLSOS Y MOCHILAS                                                ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 6,
+		"descripcion": "BOZALES                                                          ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 7,
+		"descripcion": "CORREAS                                                          ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 8,
+		"descripcion": "COLLARES                                                         ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 9,
+		"descripcion": "PRETALES                                                         ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 10,
+		"descripcion": "TRANSPORTE Y HOGAR                                               ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 11,
+		"descripcion": "ENTRETENIMIENTO PARA PERROS                                      ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 12,
+		"descripcion": "ENTRETENIMIENTO PARA GATOS                                       ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 13,
+		"descripcion": "CUIDADO DENTAL                                                   ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 14,
+		"descripcion": "COMEDEROS BEBEDEROS Y LITERAS                                    ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 15,
+		"descripcion": "ESPECIAL GROOMERS                                                ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 16,
+		"descripcion": "REHABILITACIàN                                                   ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 17,
+		"descripcion": "PROTECTORES ARTICULARES                                          ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 18,
+		"descripcion": "INSUMOS VETERINARIOS                                             ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 19,
+		"descripcion": "ARTÖCULOS DE ASISTENCIA Y AYUDA                                  ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 20,
+		"descripcion": "IMPLEMENTOS VETERINARIOS                                         ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 21,
+		"descripcion": "SNACKS                                                           ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 22,
+		"descripcion": "JUGUETES                                                         ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 23,
+		"descripcion": "CHIPS                                                            ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 24,
+		"descripcion": "SEGURO MEDICO                                                    ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 25,
+		"descripcion": "SUITES DE ASEO                                                   ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	},
+	{
+		"id": 26,
+		"descripcion": "PEDICURÖA                                                        ",
+		"foto": "FOTO de la veterinaria                                                                                                                                               ",
+		"estado": "ACTIVO              "
+	}
+]

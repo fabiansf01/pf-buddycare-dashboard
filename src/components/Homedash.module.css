@@ -1,0 +1,21 @@
+.homeContainer {
+    background-color: white;
+    
+    
+  }
+  
+  .fontBlanco{
+
+    color:white;
+  }
+
+
+  .newcards{
+
+    
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 175px;
+  }
+  

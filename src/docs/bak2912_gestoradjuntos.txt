@@ -1,0 +1,61 @@
+import React, { useState } from 'react';
+
+const Gestoradjuntos = () => {
+  const [image, setImage] = useState(null);
+
+  const handleImageChange = (event) => {
+    setImage(event.target.files[0]);
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const formData = new FormData();
+    formData.append('image', image);
+    formData.append('id', localStorage.getItem('adjid'));
+    formData.append('tipo', localStorage.getItem('adjorigen'));
+
+    
+    fetch('http://www.fpsoft.com.ar/pfsubefotos/backend8.php', {
+      method: 'POST',
+      body: formData
+    }).then(response => response.json())
+      .then(data => {
+        console.log(data);
+      });
+  }
+
+  return (
+   <div className="form-group mb-3 mt-5 ms-5 ">
+   
+     <form onSubmit={handleSubmit} className="bg-dark">
+     <label className="text-white">  
+        <h2>-- GESTOR DE IMAGENES ADJUNTAS --</h2>
+      </label>
+      <br></br>
+      <br></br>
+      
+      
+      <label className="text-white">
+        
+      CRUD Originador : {localStorage.getItem('adjorigen')}
+      </label>
+      <br></br>
+      <br></br>
+      <label className="text-white">  
+        <h3>Seleccionar imagen:</h3>
+        
+      </label>
+      <br></br> <br></br>
+      <input type="file" className="form-control" onChange={handleImageChange} />
+      <br></br><br></br>
+      <div className="d-grid">
+      <button type="submit" className="btn btn-outline-danger" >Enviar imagen</button>
+      </div>
+    </form>
+    </div>
+
+  );
+}
+
+export default Gestoradjuntos;
